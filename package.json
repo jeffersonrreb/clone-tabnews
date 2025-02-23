@@ -4,17 +4,20 @@
   "description": "Projeto para treinar programação com inspiração no tabnews.com.br",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next dev",
     "lint:check": "prettier --check .",
-    "lint:fix": "prettier --write ."
+    "lint:fix": "prettier --write .",
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "next": "^13.1.6",
+    "jest": "^29.6.2",
+    "next": "^15.1.7",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "save-dev": "^0.0.1-security"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
